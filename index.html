@@ -4,46 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMCORE Remote Support</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>IMCORE Remote Support</h1>
     </header>
-    <main>
-        <table>
-            <thead>
-                <tr>
-                    <th>Ubicación</th>
-                    <th>Host</th>
-                    <th>Meeting</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="2">Springdale</td> 
-                    <td>PC1 (SD PC 1)</td>
-                    <td><a href="https://us05web.zoom.us/j/88675442708?pwd=jQGdxIu3nCZd3tnsDJ0c2C6aWpQKfj.1">Meeting Link</a></td>
-                </tr>
-                <tr>
-                    <td>PC2 (SD PC 2)</td>
-                    <td><a href="https://us05web.zoom.us/j/85669050600?pwd=QFpq35StWbaMw3IM4CIl3MreI2xXoN.1">Meeting Link</a></td>
-                </tr>
-                <tr>
-                    <td rowspan="2">Fort Smith</td> 
-                    <td>PC1 (FS PC 1)</td>
-                    <td><a href="https://us05web.zoom.us/j/85601772036?pwd=DKPRESdBhMU776H487tl84xsqYNrB6.1">Meeting Link</a></td>
-                </tr>
-                <tr>
-                    <td>PC2</td>
-                    <td><a>Meeting Link </a></td>
-                </tr>
-            </tbody>
-        </table>
+    <main class="container">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Ubicación</th>
+                        <th>Host</th>
+                        <th>Meeting</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Ubicación" rowspan="2">Springdale</td> 
+                        <td data-label="Host">PC1 (SD PC 1)</td>
+                        <td data-label="Meeting"><a href="https://us05web.zoom.us/j/88675442708?pwd=jQGdxIu3nCZd3tnsDJ0c2C6aWpQKfj.1">Meeting Link</a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Host">PC2 (SD PC 2)</td>
+                        <td data-label="Meeting"><a href="https://us05web.zoom.us/j/85669050600?pwd=QFpq35StWbaMw3IM4CIl3MreI2xXoN.1">Meeting Link</a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Ubicación" rowspan="2">Fort Smith</td> 
+                        <td data-label="Host">PC1 (FS PC 1)</td>
+                        <td data-label="Meeting"><a href="https://us05web.zoom.us/j/85601772036?pwd=DKPRESdBhMU776H487tl84xsqYNrB6.1">Meeting Link</a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Host">PC2</td>
+                        <td data-label="Meeting"><a>Meeting Link</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <footer>
             customercare.imcore@outlook.com <br>
             **********!
         </footer>
     </main>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
